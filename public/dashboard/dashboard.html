@@ -3,11 +3,19 @@
         <h3>Dashboard</h3>
     </div>
     <div>
-        <table id="stockTable" class="dash-table">
+        <table data-dash-table="main" id="stockTable" class="dash-table">
+            <thead>
+            <th>Symbol</th><th>Price</th>
+            </thead>
+            <tbody>
 
+            </tbody>
         </table>
     </div>
-    <div>
-
+    <div id ="equityHolder" class="hide">
+        {{ equities }}
     </div>
 </div>
+<script type="text/javascript">
+ var testData;
+</script>

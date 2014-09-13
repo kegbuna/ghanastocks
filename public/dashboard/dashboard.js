@@ -12,5 +12,24 @@ angular.module('ghanastocks.dashboard', ['ngRoute', 'ghanastocks.services'])
 
 .controller('dashboardCtrl', ['$scope','Stocks', function (sc, Stocks)
 {
-    Stocks.live();
+    var $stockTable = $('#stockTable').dataTable(
+    {
+        columns:
+        [
+            {"data" : "name"},
+            {"data" : "price"}
+        ]
+    });
+    Stocks.live().success(function(response)
+    {
+        sc.live = response;
+    });
+
+    Stocks.equities().success(function (response)
+    {
+        sc.equities = response;
+        $stockTable.add(sc.equities);
+        $stockTable.fnDraw();
+        console.log($stockTable);
+    });
 }]);

@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="bower_components" type="javaScript">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/bower_components/modernizr/test/caniuse_files/ga.js" />
-      <root url="file://$PROJECT_DIR$/bower_components/modernizr/test/caniuse_files/modernizr-1.7.min.js" />
-      <root url="file://$PROJECT_DIR$/bower_components/modernizr/test/caniuse_files/jquery.min.js" />
-      <root url="file://$PROJECT_DIR$/bower_components/angularjs/angular.min.js" />
       <root url="file://$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.min.js" />
       <root url="file://$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" />
+      <root url="file://$PROJECT_DIR$/bower_components/modernizr/test/caniuse_files/jquery.min.js" />
+      <root url="file://$PROJECT_DIR$/bower_components/modernizr/test/caniuse_files/modernizr-1.7.min.js" />
+      <root url="file://$PROJECT_DIR$/bower_components/angularjs/angular.min.js" />
+      <root url="file://$PROJECT_DIR$/bower_components/modernizr/test/caniuse_files/ga.js" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="WEB_MODULE" version="4">
-  <component name="DBNavigator.Module.ConnectionManager">
-    <connections />
-  </component>
-  <component name="FacetManager">
-    <facet type="JRUBY" name="JRuby">
-      <configuration>
-        <JRUBY_FACET_CONFIG_ID NAME="JRUBY_SDK_NAME" VALUE="" />
-        <LOAD_PATH number="0" />
-        <I18N_FOLDERS number="0" />
-      </configuration>
-    </facet>
-  </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$" />
-    <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="sass-stdlib" level="application" />
-  </component>
+<project version="4">
   <component name="org.twodividedbyzero.idea.findbugs">
+    <option name="annotationTypeSettings">
+      <map>
+        <entry key="ExpPriority" value="-16777216;-1;-8355712;WAVE_UNDERSCORE;0;" />
+        <entry key="HighPriority" value="-65536;-1;-65536;WAVE_UNDERSCORE;1;" />
+        <entry key="IgnorePriority" value="-16777216;-1;-8650628;WAVE_UNDERSCORE;0;" />
+        <entry key="LowPriority" value="-16777216;-1;-16711936;BOXED;0;" />
+        <entry key="NormalPriority" value="-16777216;-1;-5066240;WAVE_UNDERSCORE;2;" />
+      </map>
+    </option>
     <option name="_basePreferences">
       <map>
         <entry key="property.analysisEffortLevel" value="default" />
@@ -213,6 +204,15 @@
         <entry key="STYLE" value="true" />
       </map>
     </option>
+    <option name="_annotationTypeSettings">
+      <map>
+        <entry key="ExpPriority" value="-16777216;-1;-8355712;WAVE_UNDERSCORE;0;" />
+        <entry key="HighPriority" value="-65536;-1;-65536;WAVE_UNDERSCORE;1;" />
+        <entry key="IgnorePriority" value="-16777216;-1;-8650628;WAVE_UNDERSCORE;0;" />
+        <entry key="LowPriority" value="-16777216;-1;-16711936;BOXED;0;" />
+        <entry key="NormalPriority" value="-16777216;-1;-5066240;WAVE_UNDERSCORE;2;" />
+      </map>
+    </option>
   </component>
-</module>
+</project>
 
