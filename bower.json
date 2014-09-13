@@ -1,0 +1,26 @@
+{
+  "name": "ghanastocks",
+  "version": "0.0.0",
+  "authors": [
+    "Ken Egbuna <kegbuna@gmail.com>"
+  ],
+  "description": "Trying to display Ghanaian stocks",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "ghana",
+    "stocks"
+  ],
+  "license": "CPL",
+  "homepage": "kenegbuna.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
