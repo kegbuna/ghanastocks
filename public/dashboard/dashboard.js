@@ -12,6 +12,7 @@ dashModule.config(['$routeProvider', function ($routeProvider)
 
 .controller('dashboardCtrl', ['$scope','Stocks', function (sc, Stocks)
 {
+<<<<<<< HEAD
     /*start off scope with some values to prevent errors like height="NaN"*/
     sc.live = {};
     sc.equities = {};
@@ -20,12 +21,24 @@ dashModule.config(['$routeProvider', function ($routeProvider)
 
     performCollection();
     setInterval(function ()
+=======
+    var $stockTable = $('#stockTable').DataTable(
+    {
+        columns:
+        [
+            {"data" : "name"},
+            {"data" : "price"}
+        ]
+    });
+    Stocks.live().success(function(response)
+>>>>>>> c7b16ff64db58c9ca79bcdb56fd21557aeddfc6c
     {
         performCollection();
     }, 90000);
 
     function performCollection()
     {
+<<<<<<< HEAD
         sc.errorMessage.equities = "";
         var onError = function(response)
         {
@@ -60,3 +73,11 @@ dashModule.directive("barChart", function ($window)
         }
     };
 });
+=======
+        sc.equities = response;
+        $stockTable.rows.add(sc.equities);
+        $stockTable.draw();
+        console.log($stockTable);
+    });
+}]);
+>>>>>>> c7b16ff64db58c9ca79bcdb56fd21557aeddfc6c
