@@ -4,18 +4,30 @@ var http = require('http');
 
 var apiHost = "dev.kwayisi.org";
 var apiBasePath = "/apis/gse";
-var apiCallback = function (response)
+
+var apiCallback = function (req, res, response)
 {
     var data = '';
-    console.log("API is calling back");
     response.on('data', function(chunk)
     {
-        data+= chunk;
+        data += chunk;
     });
 
-    response.on('end', function(chunk)
+    response.on('end', function()
     {
-        console.log(data);
+        if (response.statusCode == 500)
+        {
+            data = {};
+            data.type = "communication";
+            data.source = req.route.path;
+            data.message = "Error communicating with the source API Endpoint. Please try again.";
+            res.statusCode = 500;
+            res.send(data);
+        }
+        else
+        {
+            res.send(data);
+        }
     });
 };
 
@@ -26,75 +38,35 @@ router.get('/', function(req, res) {
 
 router.get('/equities', function(req, res) {
 
-    var data = '';
-
     http.get('http://dev.kwayisi.org/apis/gse/equities', function(response)
     {
-        response.on('data', function(chunk)
-        {
-            data += chunk;
-        });
-
-        response.on('end', function()
-        {
-            res.send(data);
-        });
+        apiCallback(req, res, response);
     });
 });
 
 router.get('/equities/:symbol', function(req, res) {
 
-    var data = '';
-
     http.get('http://dev.kwayisi.org/apis/gse/equities/' + req.params.symbol, function(response)
     {
-        response.on('data', function(chunk)
-        {
-            data += chunk;
-        });
-
-        response.on('end', function()
-        {
-            res.send(data);
-        });
+        apiCallback(req, res, response);
     });
 
 });
 
 router.get('/live', function(req, res) {
 
-    var data = '';
-
     http.get('http://dev.kwayisi.org/apis/gse/live', function(response)
     {
-        response.on('data', function(chunk)
-        {
-            data += chunk;
-        });
-
-        response.on('end', function()
-        {
-            res.send(data);
-        });
+        apiCallback(req, res, response);
     });
 
 });
 
 router.get('/live/:symbol', function(req, res) {
 
-    var data = '';
-
     http.get('http://dev.kwayisi.org/apis/gse/live/' + req.params.symbol, function(response)
     {
-        response.on('data', function(chunk)
-        {
-            data += chunk;
-        });
-
-        response.on('end', function()
-        {
-            res.send(data);
-        });
+        apiCallback(req, res, response);
     });
 });
 

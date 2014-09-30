@@ -1433,3 +1433,8 @@ $include-html-global-classes: $include-html-classes;
 // $include-table-visibility-classes: true;
 // $include-legacy-visibility-classes: true;
 // $include-accessibility-classes: true;
+
+/* fix for Uncaught Error: Syntax error, unrecognized expression: [data-'Times New Roman'-abide] per https://github.com/zurb/foundation/issues/4371 */
+.foundation-data-attribute-namespace {
+  font-family: false;
+}

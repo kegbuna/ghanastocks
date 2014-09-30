@@ -1,6 +1,8 @@
-@import "settings";
+@import "_settings";
+/*should work*/
 @import "../bower_components/foundation/scss/foundation";
-@import "datatables";
+@import "../bower_components/foundation/scss/normalize";
+/*test*/
 
 // Or selectively include components
 // @import
@@ -44,21 +46,50 @@
 $red: #cc0033;
 $yellow: #ffcc00;
 $green: #006633;
+
 /*
   Header section
 */
-
-/*
-  Table stuff
-*/
-
-.dash-table {
-  @extend .dataTable;
-}
 
 .container
 {
   max-width: 1350px;
   margin: 0 auto;
+}
+.info-panel
+{
+  @extend .small-10;
+  @extend .panel;
+  @extend .columns;
+
+  background: $green;
+}
+.chart-unit-container
+{
 
 }
+.chart-bar
+{
+
+}
+.chart-text
+{
+
+}
+.ghana-red
+{
+  color: $red;
+  fill: $red;
+}
+.ghana-yellow
+{
+  color: $yellow;
+  fill: $yellow;
+}
+.ghana-green
+{
+  color: $green;
+  fill: $green;
+}
+
+

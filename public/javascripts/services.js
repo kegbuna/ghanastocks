@@ -12,7 +12,7 @@ angular.module('ghanastocks.services', [])
             }
             return $http(
             {
-                url: stockEndPoint + "/equities/" + symbol,
+                url: stockEndPoint + "equities/" + symbol,
                 method: "GET"
             });
         },
@@ -24,7 +24,7 @@ angular.module('ghanastocks.services', [])
             }
             return $http(
             {
-                url: stockEndPoint + "/live/" + symbol,
+                url: stockEndPoint + "live/" + symbol,
                 method: "GET"
             });
         }

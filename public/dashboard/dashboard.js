@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('ghanastocks.dashboard', ['ngRoute', 'ghanastocks.services'])
+var dashModule = angular.module('ghanastocks.dashboard', ['ngRoute', 'ghanastocks.services']);
 
-.config(['$routeProvider', function ($routeProvider)
+dashModule.config(['$routeProvider', function ($routeProvider)
 {
     $routeProvider.when('/dashboard', {
         templateUrl: 'dashboard/dashboard.html',
@@ -12,24 +12,51 @@ angular.module('ghanastocks.dashboard', ['ngRoute', 'ghanastocks.services'])
 
 .controller('dashboardCtrl', ['$scope','Stocks', function (sc, Stocks)
 {
-    var $stockTable = $('#stockTable').dataTable(
-    {
-        columns:
-        [
-            {"data" : "name"},
-            {"data" : "price"}
-        ]
-    });
-    Stocks.live().success(function(response)
-    {
-        sc.live = response;
-    });
+    /*start off scope with some values to prevent errors like height="NaN"*/
+    sc.live = {};
+    sc.equities = {};
+    sc.equities.length = 0;
+    sc.errorMessage = {};
 
-    Stocks.equities().success(function (response)
+    performCollection();
+    setInterval(function ()
     {
-        sc.equities = response;
-        $stockTable.add(sc.equities);
-        $stockTable.fnDraw();
-        console.log($stockTable);
-    });
+        performCollection();
+    }, 90000);
+
+    function performCollection()
+    {
+        sc.errorMessage.equities = "";
+        var onError = function(response)
+        {
+            console.log(response);
+            sc.errorMessage.equities = response.message;
+        };
+
+        Stocks.live().success(function(response)
+        {
+            sc.live = response;
+        }).error(onError);
+
+        Stocks.equities().success(function (response)
+        {
+
+            sc.equities = response;
+
+        }).error(onError);
+
+    }
 }]);
+
+dashModule.directive("barChart", function ($window)
+{
+    return {
+        restrict: "EA",
+        template: "<svg></svg>",
+        link: function(scope, elem, attrs)
+        {
+            var d3 = $window.d3;
+
+        }
+    };
+});

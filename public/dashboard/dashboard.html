@@ -1,16 +1,16 @@
 <div class="container">
-    <div>
-        <h3>Dashboard</h3>
-    </div>
-    <div>
-        <table data-dash-table="main" id="stockTable" class="dash-table">
-            <thead>
-            <th>Symbol</th><th>Price</th>
-            </thead>
-            <tbody>
-
-            </tbody>
-        </table>
+    <div class="row">
+        <div class="info-panel">
+            <div class="info-panel-error">
+                <h1>{{errorMessage.equities}}</h1>
+            </div>
+            <svg width="100%" ng-attr-height="{{equities.length * 25}}">
+                <g class="chart-unit-container" xmlns="http://www.w3.org/2000/svg" ng-repeat="equity in equities" ng-attr-transform="translate(0, {{$index * 25}})">
+                    <rect class="char-bar ghana-red" ng-attr-width="{{equity.price * 50}}"  height="1.2em" ></rect>
+                    <text class="chart-text ghana-yellow" y="1em" height="1em" >{{equity.name}} - {{equity.price}}</text>
+                </g>
+            </svg>
+        </div>
     </div>
     <div id ="equityHolder" class="hide">
         {{ equities }}

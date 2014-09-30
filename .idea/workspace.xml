@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/public" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="181d3706-cd4b-4d24-ba73-56bc6e1ca047" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/Gemfile.lock" afterPath="$PROJECT_DIR$/bower_components/foundation/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/partials/header.html" />
+      <change type="DELETED" beforePath="C:\Users\kegbuna\ghanastocks\public\bower_components\foundation\scss\foundation\components\_toolbar.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/_settings.scss" afterPath="$PROJECT_DIR$/public/stylesheets/_settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.js" afterPath="$PROJECT_DIR$/routes/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/app.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/app.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/app.css" afterPath="$PROJECT_DIR$/public/stylesheets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app.js" afterPath="$PROJECT_DIR$/public/javascripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/app.scss" afterPath="$PROJECT_DIR$/public/stylesheets/app.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/public/dashboard/dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dashboard/dashboard.js" afterPath="$PROJECT_DIR$/public/dashboard/dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/foundation/foundation.iml" afterPath="$PROJECT_DIR$/bower_components/foundation/foundation.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/node_modules.xml" afterPath="$PROJECT_DIR$/.idea/libraries/node_modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/public.iml" afterPath="$PROJECT_DIR$/public/public.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/routes.iml" afterPath="$PROJECT_DIR$/routes/routes.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.iml" afterPath="$PROJECT_DIR$/server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/services.js" afterPath="$PROJECT_DIR$/public/javascripts/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/views.iml" afterPath="$PROJECT_DIR$/views/views.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ghanastocks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410631093904" ignored="false" />
+    <file path="/index.html" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1412068778342" ignored="false" />
     <file path="/index.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410572789257" ignored="false" />
-    <file path="/dashboard.html" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410633721591" ignored="false" />
+    <file path="/dashboard.html" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1412098537298" ignored="false" />
     <file path="/a.html" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576788464" ignored="false" />
-    <file path="/app.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410629907503" ignored="false" />
+    <file path="/app.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1412063133777" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/modernizr/test/caniuse_files/hashchange.html" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/modernizr/test/caniuse_files/pushstate.html" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/modernizr/test/caniuse_files/jquery.min.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
@@ -106,10 +115,6 @@
     <file path="$PROJECT_DIR$/public/bower_components/modernizr/feature-detects/css-filters.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/modernizr/feature-detects/battery-level.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/modernizr/feature-detects/ie8compat.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/.bower.json" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/bower.json" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/js/foundation.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/js/foundation.min.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/foundation/js/vendor/jquery.cookie.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/foundation/js/vendor/placeholder.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/foundation/js/vendor/fastclick.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
@@ -132,50 +137,6 @@
     <file path="$PROJECT_DIR$/public/bower_components/foundation/js/foundation/foundation.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/foundation/js/foundation/foundation.orbit.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/foundation/js/foundation/foundation.interchange.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/css/foundation.css" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/css/normalize.css" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/_functions.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/_settings.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_dropdown.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_tabs.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_buttons.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_pagination.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_forms.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_type.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_orbit.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_magellan.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_offcanvas.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_panels.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_top-bar.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_clearing.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_progress-bars.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_alert-boxes.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_inline-lists.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_sub-nav.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_accordion.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_joyride.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_side-nav.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_switches.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_thumbs.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_toolbar.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_split-buttons.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_block-grid.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_flex-video.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_tooltips.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_labels.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_icon-bar.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_global.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_tables.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_grid.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_pricing-tables.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_visibility.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_range-slider.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_keystrokes.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_button-groups.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
-    <file path="$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_reveal.scss" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/angular/angular.min.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/angular/angular-csp.css" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/angular/bower.json" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639734" ignored="false" />
@@ -835,11 +796,11 @@
     <file path="$PROJECT_DIR$/public/bower_components/modernizr/test/caniuse_files/form_validation.html" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639736" ignored="false" />
     <file path="$PROJECT_DIR$/public/bower_components/modernizr/test/caniuse_files/ga.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410576639736" ignored="false" />
     <file path="/a.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410584653813" ignored="false" />
-    <file path="/dashboard.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410636233861" ignored="false" />
+    <file path="/dashboard.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1412098514682" ignored="false" />
     <file path="/services.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410581327490" ignored="false" />
     <file path="/app.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410582094274" ignored="false" />
-    <file path="/api.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410620257372" ignored="false" />
-    <file path="/Dummy.txt" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1410629622287" ignored="false" />
+    <file path="/api.js" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1412097655007" ignored="false" />
+    <file path="/Dummy.txt" changelist="181d3706-cd4b-4d24-ba73-56bc6e1ca047" time="1411919672026" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -900,13 +861,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="181" selection-start="914" selection-end="914" vertical-scroll-proportion="0.29611042">
+            <state line="23" column="41" selection-start="967" selection-end="967" vertical-scroll-proportion="-15.038462">
               <folding>
-                <marker date="1410631096625" expanded="true" signature="760:913" placeholder="..." />
-                <marker date="1410631096625" expanded="true" signature="853:881" placeholder="..." />
+                <marker date="1412068788111" expanded="true" signature="758:911" placeholder="..." />
+                <marker date="1412068788111" expanded="true" signature="851:879" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -915,16 +876,7 @@
       <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/dashboard/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="187" selection-start="391" selection-end="391" vertical-scroll-proportion="-11.115385">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="176" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+            <state line="12" column="10" selection-start="718" selection-end="718" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
@@ -933,7 +885,16 @@
       <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="174" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.0">
+            <state line="56" column="17" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_settings.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/_settings.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="0" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -942,7 +903,25 @@
       <file leaf-file-name="dashboard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/dashboard/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="30" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+            <state line="22" column="12" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/partials/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="6" selection-start="199" selection-end="199" vertical-scroll-proportion="-3.9230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="11" selection-start="317" selection-end="317" vertical-scroll-proportion="0.14357054">
               <folding />
             </state>
           </provider>
@@ -951,25 +930,7 @@
       <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="32" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
+            <state line="32" column="91" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -995,26 +956,53 @@
       <list>
         <option value="$PROJECT_DIR$/public/app.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/datatables.scss" />
-        <option value="$PROJECT_DIR$/public/stylesheets/_settings.scss" />
         <option value="$PROJECT_DIR$/public/javascripts/controllers.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/api.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/services.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/app.scss" />
         <option value="$PROJECT_DIR$/public/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/public/javascripts/app.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/_settings.scss" />
+        <option value="$PROJECT_DIR$/public/stylesheets/app.scss" />
+        <option value="$PROJECT_DIR$/public/partials/header.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/dashboard/dashboard.html" />
+        <option value="$PROJECT_DIR$/routes/api.js" />
         <option value="$PROJECT_DIR$/public/dashboard/dashboard.js" />
+        <option value="$PROJECT_DIR$/public/dashboard/dashboard.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/services.js" />
       </list>
     </option>
   </component>
+  <component name="NamedScopeManager">
+    <scope name="ignore" pattern="" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1841" />
-    <option name="height" value="1008" />
+    <option name="x" value="148" />
+    <option name="y" value="29" />
+    <option name="width" value="1280" />
+    <option name="height" value="984" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSValidateTypes</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1042,10 +1030,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1060,7 +1044,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1070,8 +1054,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghanastocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
@@ -1082,10 +1072,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ghanastocks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
@@ -1100,10 +1086,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ghanastocks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
@@ -1124,8 +1106,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ghanastocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
@@ -1136,104 +1128,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datatables" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datatables" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ghanastocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datatables" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1243,7 +1143,8 @@
     <property name="options.splitter.main.proportions" value="0.30083334" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="settings" />
-    <property name="last_opened_file_path" value="C:/Ruby200-x64/bin/scss.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -1343,6 +1244,22 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
@@ -1470,14 +1387,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1841" height="1008" extended-state="1" />
+    <frame x="148" y="29" width="1280" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1492,14 +1411,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17762788" sideWeight="0.6702002" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979977" sideWeight="0.49971893" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23891626" sideWeight="0.6711004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889965" sideWeight="0.49971893" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1564,115 +1482,118 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/javascripts/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="43" selection-start="734" selection-end="734" vertical-scroll-proportion="0.45518044" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/api.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="32" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="978" column="8" selection-start="62633" selection-end="62640" vertical-scroll-proportion="0.7617834">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="174" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/datatables/dataTables.jquery.json">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/datatables/Readme.md">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_toolbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/datatables/media/js/jquery.dataTables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2332" column="16" selection-start="92715" selection-end="92715" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dashboard/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="30" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+        <state line="5" column="12" selection-start="108" selection-end="108" vertical-scroll-proportion="0.16732283">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="176" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/dashboard/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/public/bower_components/foundation/scss/foundation/components/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="187" selection-start="391" selection-end="391" vertical-scroll-proportion="-11.115385">
+        <state line="255" column="10" selection-start="7350" selection-end="7350" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/foundation/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="7" selection-start="431" selection-end="431" vertical-scroll-proportion="0.36074272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/foundation/scss/normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="35" selection-start="378" selection-end="378" vertical-scroll-proportion="0.3923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="197" selection-end="197" vertical-scroll-proportion="0.12734082">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="17" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.1485643">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="199" selection-end="199" vertical-scroll-proportion="-3.9230769">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="181" selection-start="914" selection-end="914" vertical-scroll-proportion="0.29611042">
+        <state line="23" column="41" selection-start="967" selection-end="967" vertical-scroll-proportion="-15.038462">
           <folding>
-            <marker date="1410631096625" expanded="true" signature="760:913" placeholder="..." />
-            <marker date="1410631096625" expanded="true" signature="853:881" placeholder="..." />
+            <marker date="1412068788111" expanded="true" signature="758:911" placeholder="..." />
+            <marker date="1412068788111" expanded="true" signature="851:879" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dashboard/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="718" selection-end="718" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dashboard/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="12" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="91" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="317" selection-end="317" vertical-scroll-proportion="0.14357054">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1729,7 +1650,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JRuby|foundation</last-edited>
+          <last-edited>public</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1754,7 +1675,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>bower_components</last-edited>
+          <last-edited>node_modules</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1766,6 +1687,7 @@
       </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
+          <last-edited>only app</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1773,6 +1695,9 @@
               </list>
             </option>
           </splitter-proportions>
+          <order>
+            <scope name="ignore" />
+          </order>
         </settings>
       </state>
     </states>
